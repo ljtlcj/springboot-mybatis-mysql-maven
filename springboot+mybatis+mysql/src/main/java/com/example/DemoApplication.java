@@ -11,7 +11,6 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 public class DemoApplication {
 
     public static void main(String[] args) {
-        System.out.println("冲突");
         SpringApplication.run(DemoApplication.class, args);
     }
 
